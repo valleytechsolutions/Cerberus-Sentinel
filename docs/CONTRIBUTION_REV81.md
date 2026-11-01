@@ -77,6 +77,14 @@ record semantics.
 
 ## Sources, licensing, and release boundaries
 
+**Special thanks to [JustCallMeKoko](https://github.com/justcallmekoko), creator
+of [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder), and the
+Marauder contributors.** Their original code and shared work underpin the
+Marauder-derived parts of this contribution. @valleytechsolutions thanks Koko
+for giving permission to bring that work into Cerberus. The
+[attribution record](MARAUDER_ATTRIBUTION.md) connects that credit to source
+revisions and adapted components, and describes how to preserve it in future PRs.
+
 The Marauder reference snapshots and their equivalence are documented in
 [the develop baseline](MARAUDER_DEVELOP_BASELINE.md); the imported MIT notice is
 in [LICENSES/ESP32Marauder.txt](../LICENSES/ESP32Marauder.txt). The patched local

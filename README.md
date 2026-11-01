@@ -7,6 +7,26 @@ The current checkpoint is **S3 rev81 `candidate-wifi-client-navigation`, paired
 with C5 firmware 60**. It remains a partial integration with known failures and
 pending hardware acceptance; it is not a production release or full Marauder port.
 
+## Special thanks to JustCallMeKoko and the ESP32 Marauder community
+
+**A huge thank-you to [JustCallMeKoko (Just Call Me Koko)](https://github.com/justcallmekoko),
+creator of [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder),
+and everyone who contributes to that project.** His work is an important
+foundation for the Marauder-derived features being brought to Cerberus. Credit
+for those original implementations belongs to him and the upstream contributors.
+
+From [@valleytechsolutions](https://github.com/valleytechsolutions):
+"Koko gave me permission to bring this work into Cerberus, and I want to make
+sure he gets his roses. Thank you for sharing your code and making this possible."
+
+This contribution adapts and integrates that work for Cerberus. The original
+[copyright and MIT license notice](LICENSES/ESP32Marauder.txt) and source-level
+credits are preserved. See [Marauder attribution and source provenance](docs/MARAUDER_ATTRIBUTION.md)
+for the upstream revisions, examples of adapted code, and credit guidance for
+future contributions.
+
+## Checkpoint status and review
+
 Start with the [contribution overview and remaining work](docs/CONTRIBUTION_REV81.md)
 and [validation instructions](docs/VALIDATION.md). The
 [source-pinned coverage ledger](docs/MARAUDER_COVERAGE_LEDGER.md) tracks detailed
